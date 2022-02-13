@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:twitter_clone/timeline_controller.dart';
+import 'package:twitter_clone/views/timeline/timeline_controller.dart';
 
 class Timeline extends ConsumerWidget {
   const Timeline({Key? key}) : super(key: key);
