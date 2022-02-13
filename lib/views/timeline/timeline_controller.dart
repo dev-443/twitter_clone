@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:twitter_clone/user.dart';
+import 'package:twitter_clone/entities/user.dart';
 
 final timelineControllerProvider =
     ChangeNotifierProvider<TimelineController>((ref) {
